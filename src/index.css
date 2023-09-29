@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding:0 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+header h1{
+  color:#fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+footer{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height:2.5rem;
+}
+footer p{
+  color: #ccc;
+}
+.note{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1{
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+.note p{
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note button{
+  color:#f5ba13;
+  background-color: white;
+  border: none;
+  font-weight: bolder;
+  float: right;
+}
+.createarea{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 340px;
+  margin: 16px 16px 16px 35%; 
+}
+
+.createarea input,textarea{
+  width: 90%;
+  padding: 15px;
+}
+.createarea button{
+  border: none;
+  height: 30px;
+  width:35px;
+  cursor:pointer;
+  border-radius: 50%;
+  background-color: #f5ba13;
+  color: white;
+  float: right;
+}
